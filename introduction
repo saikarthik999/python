@@ -6,6 +6,13 @@ print("x=",+x-y)
 print("x=",+x*y)
 print("x=",+x/y)
 print("x=",+x%y)
+name = "karthik"
+Name = "kavali"
+print(name[0])
+print(len(name))
+print(name[1:4])
+v = (x+y)
+print("add=",+v)
 
  output:
  
@@ -15,3 +22,8 @@ x= -1
 x= 2
 x= 0.5
 x= 1
+k
+7
+art
+add= 3
+5
