@@ -1,0 +1,17 @@
+x = 1
+y = 2
+z = 3
+print("x=",+x+y)
+print("x=",+x-y)
+print("x=",+x*y)
+print("x=",+x/y)
+print("x=",+x%y)
+
+ output:
+ 
+ Hello world
+x= 3
+x= -1
+x= 2
+x= 0.5
+x= 1
