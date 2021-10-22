@@ -1,0 +1,20 @@
+nums = [5,10,15,20,25,30]
+print(nums[0])
+nums.append(7)
+print("nums = ",nums)
+nums.append('karthik')
+print("nums = ",nums)
+nums.insert(1,'kaali')
+print("nums = ",nums)
+nums.extend(['apple','pea','veg'])
+print("nums = ",nums)
+nums[0] = 'five'
+print("nums = ",nums)
+
+ output: 
+ 
+ nums =  [5, 10, 15, 20, 25, 30, 7]
+nums =  [5, 10, 15, 20, 25, 30, 7, 'karthik']
+nums =  [5, 'kaali', 10, 15, 20, 25, 30, 7, 'karthik']
+nums =  [5, 'kaali', 10, 15, 20, 25, 30, 7, 'karthik', 'apple', 'pea', 'veg']
+nums =  ['five', 'kaali', 10, 15, 20, 25, 30, 7, 'karthik', 'apple', 'pea', 'veg']
