@@ -9,3 +9,14 @@ while a<6:
 else:
     print("This Is While Loop")
     
+    
+ output:
+ 
+ 1 hello
+2 hello
+Now it is 3
+3 hello
+4 hello
+5 hello
+This Is While Loop
+> 
