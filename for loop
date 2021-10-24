@@ -1,3 +1,4 @@
+// To print no from 1 to 5 using for loop
 print("This Is For Loop")
 b = 1    
 for b in range(b,6,1):
