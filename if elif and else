@@ -1,6 +1,7 @@
-a = 66
+// exam results of student
+a = 66 //declaring variable
 print("Exam Results")
-if a<=65:
+if a<=65:                     //using if condition
     print("You Are Passed")
 elif a >65 and a<75:
     print("good marks")
