@@ -1,0 +1,20 @@
+a = 66
+print("Exam Results")
+if a<=65:
+    print("You Are Passed")
+elif a >65 and a<75:
+    print("good marks")
+elif a>75 and a<85:
+    print("Great")
+elif a>85 and a<95:
+    print("Wonderful")
+elif a>95:
+    print("You Are The Best")
+else:
+   print("You Failed")
+  
+  output:
+ 
+ Exam Results
+ good marks
+>  
