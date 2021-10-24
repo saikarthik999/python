@@ -1,0 +1,18 @@
+print("This Is For Loop")
+b = 1    
+for b in range(b,6,1):
+    if b==3:
+        print("It Is 3")
+        continue
+    print(b,"For Loop")
+    
+  
+  output:
+  
+  This Is For Loop
+1 For Loop
+2 For Loop
+It Is 3
+4 For Loop
+5 For Loop
+    
