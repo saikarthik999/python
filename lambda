@@ -1,0 +1,21 @@
+add = lambda a,b : a+b
+sub = lambda a,b : a-b
+mul = lambda a,b : a*b
+division = lambda a,b : a/b
+
+print("add = ",add(25,25))
+print("sub = ",sub(25,25))
+print("mul= ",mul(25,25))
+print("division = ",division(25,25))
+
+output  :
+
+add = lambda a,b : a+b
+sub = lambda a,b : a-b
+mul = lambda a,b : a*b
+division = lambda a,b : a/b
+
+print("add = ",add(25,25))
+print("sub = ",sub(25,25))
+print("mul= ",mul(25,25))
+print("division = ",division(25,25))
