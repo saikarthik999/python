@@ -1,0 +1,12 @@
+x = 99  #global scope 
+
+
+def example():
+    x = 999   #local scope
+    print(x)
+    
+example()
+print(x)
+output :
+999
+99
