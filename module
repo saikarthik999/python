@@ -1,0 +1,14 @@
+#from calculation file
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return a-b
+#from python name file     
+x = 10
+y = 2
+z = add(x,y)
+print(z)
+
+output :
+
+12
