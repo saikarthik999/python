@@ -1,0 +1,33 @@
+#special varriable is _ _name_ _
+
+#from file calculator.py
+
+def multi(a,b):
+    return a*b
+
+
+def div(a,b):
+    return a/b
+
+   
+if __name__ == 'main__':
+    print("run only in calculator module") 
+    
+#from file myapp.py
+
+from calculator import *
+
+a = 15
+b = 5
+
+
+c = multi(a,b)
+
+
+print('result : ',c)
+
+
+
+output :  
+
+result :  75
