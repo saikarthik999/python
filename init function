@@ -1,0 +1,21 @@
+#init function
+
+class Vivomobile :
+    def __init__(self,model,ram,rom):
+        self.model=model
+        self.ram=ram
+        self.rom=rom
+        
+    def info(self):
+        print(self.model,self.ram,self.rom)
+             
+         
+         
+mob1 = Vivomobile('x50','8gb','64gb')
+mob1.info()
+mob2 = Vivomobile('v20','16gb','128gb')
+mob2.info()
+
+output : 
+x50 8gb 64gb
+v20 16gb 128gb
