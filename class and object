@@ -1,0 +1,12 @@
+#class and object
+
+class Vivomobile:
+    x = 99
+
+obj1 = Vivomobile()
+print(obj1.x)
+
+
+output : 
+
+99
